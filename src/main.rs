@@ -1,5 +1,7 @@
 pub mod cpu;
 pub mod opcodes;//pubを使う理由わからん
+pub mod bus;
+//これを書けばほかのファイルでも(例えばbus)モジュールが使える。
 
 use cpu::CPU;
 use cpu::Mem;
